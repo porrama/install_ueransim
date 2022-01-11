@@ -79,10 +79,14 @@ make
 
 Run **gNodeB**
 ~~~ text
+cd ~/install_ueransim/build/
+sudo ./nr-gnb -c ../config/open5gs-gnb.yaml
 ~~~ 
 
 Run **UE**
 ~~~ text
+cd ~/install_ueransim/build/
+sudo ./nr-ue -c ../config/open5gs-ue.yaml
 ~~~
 
 ---
