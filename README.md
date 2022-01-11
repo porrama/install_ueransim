@@ -40,7 +40,7 @@
 | Module      | Detail         |
 | ----------- | -----------    |
 | Memmory     | 2GB            |
-| HDD         | 20GB           |
+| HDD         | 10GB           |
 | Network     | Bridge Adapter |
 
 ### 2. Install and Setup Ubuntu Server
