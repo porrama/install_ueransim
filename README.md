@@ -65,7 +65,7 @@ cd ~
 git clone https://github.com/aligungr/UERANSIM
 ~~~
 
-Install
+Install UERANSIM
 ~~~ text
 cd ~/UERANSIM
 make
@@ -79,13 +79,13 @@ make
 
 Run **gNodeB**
 ~~~ text
-cd ~/install_ueransim/build/
+cd ~/UERANSIM/build/
 sudo ./nr-gnb -c ../config/open5gs-gnb.yaml
 ~~~ 
 
 Run **UE**
 ~~~ text
-cd ~/install_ueransim/build/
+cd ~/UERANSIM/build/
 sudo ./nr-ue -c ../config/open5gs-ue.yaml
 ~~~
 
