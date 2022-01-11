@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Software and Hardware](#id-specification)
 - [Installaion Procedure](#id-installation)
-- [Simulation Testing](#id-simulation)
+- [Running Command](#id-command)
 - [Reference](#id-reference)
 
 ---
@@ -73,9 +73,9 @@ make
 
 ---
 
-<div id='id-simulation'/>
+<div id='id-command'/>
 
-## Simulation Testing
+## Running Command
 
 Run **gNodeB**
 ~~~ text
