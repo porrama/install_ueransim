@@ -93,7 +93,7 @@ sudo ./nr-ue -c ../config/open5gs-ue.yaml
 
 <div id='id-reference'/>
 
-### Reference
+## Reference
 - [UERANSIM Documentation](https://github.com/aligungr/UERANSIM)
 
 ---
