@@ -46,13 +46,13 @@
 ### 2. Install and Setup Ubuntu Server
 
 Clone this project
-~~~ text
+~~~
 cd ~
 git clone https://github.com/porrama/install_ueransim
 ~~~
 
 Run **aptinstall_ueransim.sh**
-~~~ text
+~~~
 cd ~/install_ueransim
 sudo sh aptinstall_ueransim.sh
 ~~~
@@ -60,13 +60,13 @@ sudo sh aptinstall_ueransim.sh
 ### 3. Install UERANSIM software
 
 Clone UERANSIM project
-~~~ text
+~~~
 cd ~
 git clone https://github.com/aligungr/UERANSIM
 ~~~
 
 Install UERANSIM
-~~~ text
+~~~
 cd ~/UERANSIM
 make
 ~~~
@@ -78,13 +78,13 @@ make
 ## Running Command
 
 Run **gNodeB**
-~~~ text
+~~~
 cd ~/UERANSIM/build/
 sudo ./nr-gnb -c ../config/open5gs-gnb.yaml
 ~~~ 
 
 Run **UE**
-~~~ text
+~~~
 cd ~/UERANSIM/build/
 sudo ./nr-ue -c ../config/open5gs-ue.yaml
 ~~~
