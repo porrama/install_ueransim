@@ -77,6 +77,8 @@ make
 
 ## Running Command
 
+- Open5GS
+
 Run **gNodeB**
 ~~~
 cd ~/UERANSIM/build/
@@ -87,6 +89,20 @@ Run **UE**
 ~~~
 cd ~/UERANSIM/build/
 sudo ./nr-ue -c ../config/open5gs-ue.yaml
+~~~
+
+- Free5GC
+
+Run **gNodeB**
+~~~
+cd ~/UERANSIM/build/
+sudo ./nr-gnb -c ../config/free5gc-gnb.yaml
+~~~ 
+
+Run **UE**
+~~~
+cd ~/UERANSIM/build/
+sudo ./nr-ue -c ../config/free5gc-ue.yaml 
 ~~~
 
 ---
