@@ -1,5 +1,6 @@
 # Apt Install
 apt update
+apt install -y net-tools
 apt install -y make
 apt install -y gcc
 apt install -y g++
